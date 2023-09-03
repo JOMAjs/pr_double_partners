@@ -31,7 +31,7 @@
             <div class="modal-body" id="formulario_cuenta">
                 <form id="form-pedido" method="POST">
                     <input type="hidden" name="id" id="hidden">
-                    <input type="text" name="cuenta_id" id="cuenta_id" value="<?php echo ($_POST['id']) ?>">
+                    <input type="hidden" name="cuenta_id" id="cuenta_id" value="<?php echo ($_POST['id']) ?>">
                     <div class="form-group">
                         <label for="producto">Nombre</label>
                         <input type="text" name="producto" id="producto" class="form-control">
